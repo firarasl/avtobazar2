@@ -1,0 +1,26 @@
+<Context>
+
+    <Resource name="jdbc/autobazardb"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              username="ramin2"
+              password="uy6GpKkZ)=K37:rf"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://68.183.213.39:3306/autobazar2"/>
+
+
+    <!--    <Resource name="jdbc/autobazardb"-->
+<!--              auth="Container"-->
+<!--              type="javax.sql.DataSource"-->
+<!--              maxTotal="100"-->
+<!--              maxIdle="30"-->
+<!--              maxWaitMillis="10000"-->
+<!--              username="hr"-->
+<!--              password="HR"-->
+<!--              driverClassName="oracle.jdbc.OracleDriver"-->
+<!--              url="jdbc:oracle:thin:@//10.251.82.9:1521/ORCL"/>-->
+
+</Context>
